@@ -1,4 +1,4 @@
-"""
+
 def addnums(x,y):
     z=x+y
     return z
@@ -13,7 +13,7 @@ print(evenorodd(48))
 def greatest(*a):
     print(max(a))
 
-greatest(1,5,7,8,9,67,68,98,45)"""
+greatest(1,5,7,8,9,67,68,98,45)
 def prieven(*a):
     x = []
     y=[]
