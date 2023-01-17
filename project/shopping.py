@@ -1,11 +1,14 @@
+
+################### Creating empty list and dictionary#############
 product_details={}
 cust_details={}
 billing_details = []
-
+########## Customer details #################
 cust_details["name"] ="aaa"
 cust_details["id"] =123
 cust_details["date"] ="jan"
 
+############# Product details ##################
 product_details["product"] ="apple"
 product_details["price"] = 10
 product_details["quantity"] = 2
@@ -32,6 +35,7 @@ billing_details.append(product_details)
 cust_details["bill"] = billing_details
 print(cust_details)
 
+############ Invoice ###################
 total=0
 
 for a in cust_details["bill"]:
